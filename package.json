@@ -1,0 +1,23 @@
+{
+  "name": "rs-series",
+  "version": "1.0.0",
+  "description": "Materials for small lectures about JavaScript for The Rolling Scopes School.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon s01e01/s01e01.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToshaBely/rs-series.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ToshaBely/rs-series/issues"
+  },
+  "homepage": "https://github.com/ToshaBely/rs-series#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

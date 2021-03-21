@@ -1,5 +1,8 @@
 // Array structure:
-// [ elem_1, elem_2, elem_3, ..., elem_n ]
+//        [ elem_1, elem_2, elem_3, ..., elem_n ]
+//
+//idx:        0        1       2           n-1
+
 
 // MDN documentation about Array:
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
@@ -52,7 +55,7 @@ function arrayBypass() {
     console.log(`min is ${min}`);
   }
 
-  function findAng(array) {
+  function findAvg(array) {
     logEachElement(array);
 
     let sum = 0;
@@ -74,7 +77,7 @@ function arrayBypass() {
   // array = [5, 1, 10, 23];
   // findSum(array);
   // findMin(array);
-  // findAng(array);
+  // findAvg(array);
 }
 
 console.log('s01e01 - Array\n');

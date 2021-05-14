@@ -22,7 +22,7 @@ function logSymbolsByCharCodeList(charCodeList) {
   });
 }
 
-function isAnagram(str) {
+function isPalindrome(str) {
   str = str.replace(/ /g, '');
 
   let len = str.length;
@@ -105,9 +105,9 @@ showStringCharCodeList('Aa BC');
 
 logSymbolsByCharCodeList([88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]);
 
-// console.log('check "abcba" is anagram -', isAnagram('abcba'));
-// console.log('check "abc" is anagram -', isAnagram('abc'));
-// console.log('check "а роза азора" is anagram -', isAnagram('а роза азора'));
+// console.log('check "abcba" is palindrome -', isPalindrome('abcba'));
+// console.log('check "abc" is palindrome -', isPalindrome('abc'));
+// console.log('check "а роза азора" is palindrome -', isPalindrome('а роза азора'));
 
 // wordCount(' abc  cde  fgh');
 

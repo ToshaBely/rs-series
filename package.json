@@ -4,7 +4,7 @@
   "description": "Materials for small lectures about JavaScript for The Rolling Scopes School.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon s01e11_LinkedList/linkedList.js",
+    "start": "nodemon s01e12_Tree/tree.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
